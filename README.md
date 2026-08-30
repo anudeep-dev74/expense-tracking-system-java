@@ -77,21 +77,21 @@ The project follows a layered architecture:
                     ┌──────────────────────┐
                     │  Repository Layer    │
                     │ Collection Handling  │
-                    │ Persistence           │
+                    │ Persistence          │
                     └──────────┬───────────┘
                                │
                                ▼
                     ┌──────────────────────┐
                     │ Utility / File Layer │
-                    │ Serialization         │
-                    │ Password Hashing      │
+                    │ Serialization        │
+                    │ Password Hashing     │
                     └──────────┬───────────┘
                                │
                                ▼
-              ┌──────────────────────────────────┐
-              │ Serialized .dat Persistence      │
-              │ users.dat / expense.dat / etc.  │
-              └──────────────────────────────────┘
+                ┌──────────────────────────────────┐
+                │ Serialized .dat Persistence      │
+                │ users.dat / expense.dat / etc.   │
+                └──────────────────────────────────┘
 ```
 
 ### Architectural Principle
